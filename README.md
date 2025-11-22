@@ -65,22 +65,22 @@ terraform destroy -var-file="vars/dev-west-2.tfvars"
 ```
 
 
-## Side operations
-# When you clone a repo it still points to the origin. Use the commands below to sever the link with the origin so that you can make and commit your changes to your own repo
+# Side operations
+### When you clone a repo it still points to the origin. Use the commands below to sever the link with the origin so that you can make and commit your changes to your own repo
 
-# Check the origin
+## Check the origin
 ```
 git remote -v
 ```
-# Remove the origin
+## Remove the origin
 ```
 git remote remove origin
 ```
-# Add your origin
+## Add your origin
 ```
 git remote add origin https://github.com/USERNAME/my-new-repo.git
 ```
-# Push your local repo(changes) to remote
+## Push your local repo(changes) to remote
 ```
 git push -u origin main
 ```
